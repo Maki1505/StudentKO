@@ -1,0 +1,32 @@
+* {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-family: "Tagesschrift", system-ui;
+}
+  
+svg {
+    margin-left: 0.5rem;
+    margin-top: -0.2rem;
+  }
+
+.dugme {
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    width: 6rem;
+}
+
+.dugme-bijelo {
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    width: 6rem;
+}
+
+form {
+    padding: 6px;
+}
