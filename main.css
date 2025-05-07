@@ -6,6 +6,10 @@ body {
   font-family: "Tagesschrift", system-ui;
 }
 
+.navbar-brand:hover {
+  color: rgb(100, 151, 168);
+}
+
 svg {
   margin-left: 0.5rem;
   margin-top: -0.2rem;
@@ -30,7 +34,8 @@ svg {
   font-size: 0.9rem;
 }
 
-.dugme:hover, .dugme-bijelo:hover {
+.dugme:hover,
+.dugme-bijelo:hover {
   background-color: rgb(100, 151, 168);
 }
 
@@ -72,6 +77,12 @@ a {
   margin: 0.2rem;
 }
 
+.facebook:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: all 0.5s ease-in;
+}
 
 .linkovi {
   margin-top: 2rem;
@@ -80,4 +91,13 @@ a {
 .uslovi {
   margin-top: 23.2rem;
   text-align: center;
+}
+
+.link {
+  color: black;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: blue;
 }
