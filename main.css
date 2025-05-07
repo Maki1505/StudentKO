@@ -30,6 +30,10 @@ svg {
   font-size: 0.9rem;
 }
 
+.dugme:hover, .dugme-bijelo:hover {
+  background-color: rgb(100, 151, 168);
+}
+
 .naslov {
   font-size: 2rem;
   font-weight: 600;
@@ -49,12 +53,31 @@ svg {
 }
 
 .input {
-  text-align: left;
-  background: none;
+  border: none;
+  margin-right: 35rem;
+  margin-top: 1rem;
+  width: 60%;
+  margin-left: 1rem;
 }
 
-.glavni-chat a {
+a {
   text-decoration: none;
-  display: inline;
-  text-align: left;
+}
+
+.facebook {
+  border-radius: 2rem;
+  border: solid 2px rgba(235, 232, 232, 0.817);
+  color: black;
+  padding: 0.3rem;
+  margin: 0.2rem;
+}
+
+
+.linkovi {
+  margin-top: 2rem;
+}
+
+.uslovi {
+  margin-top: 23.2rem;
+  text-align: center;
 }
