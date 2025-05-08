@@ -55,14 +55,17 @@ svg {
   margin: 0 auto;
   height: 7rem;
   margin-top: 1rem;
+  outline: none;
 }
 
 .input {
   border: none;
   margin-right: 35rem;
   margin-top: 1rem;
-  width: 60%;
+  width: 50%;
   margin-left: 1rem;
+  outline: none;
+  background-color: #f8f9fa;
 }
 
 a {
